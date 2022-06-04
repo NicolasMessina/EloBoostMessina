@@ -1,210 +1,175 @@
 * {
-    margin: 0;
-    padding: auto;
-}
+  margin: 0;
+  padding: auto; }
 
 @font-face {
-    font-family: RobotoFlex;
-    src: url(../font/RobotoFlex-VariableFont_GRAD\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf)
-}
+  font-family: RobotoFlex;
+  src: url(../font/RobotoFlex-VariableFont_GRAD\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf); }
 
-body{
-    background-color: #31fab7;
-}
+body {
+  background-color: #31fab7; }
+
 h1 {
-    margin: 0;
-    padding: 0;
-    color: black;
-    font-weight: bold;
-    text-align: center;
-    font-family: RobotoFlex;
-    text-decoration: underline;
-}
-.subtitulo{
-    font-size: 2rem;
-}
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-family: RobotoFlex;
+  text-decoration: underline; }
+
+.subtitulo {
+  font-size: 2rem; }
+
 h2 {
-    margin: 1px;
-    padding: 5px;
+  margin: 1px;
+  padding: 5px; }
 
-}
-
-.pink{
-    background-color: pink;
-}
+.pink {
+  background-color: pink; }
 
 .subrayado {
-    text-decoration: underline;
-}
+  text-decoration: underline; }
 
 .imagen {
-    margin: 1px;
-    padding: 6px;
-}
+  margin: 1px;
+  padding: 6px; }
 
 .menu li {
-    display: flex;
-    flex-direction: column;
-    font-family: RobotoFlex;
-    font-size: 13px;
-    font-weight: bold;
-    font-style: italic;
-    display: inline;
-    padding: 0px;
-    margin: 0px;
-    border: 2px solid black;
-    background-color: yellow
-}
+  display: flex;
+  flex-direction: column;
+  font-family: RobotoFlex;
+  font-size: 13px;
+  font-weight: bold;
+  font-style: italic;
+  display: inline;
+  padding: 0px;
+  margin: 0px;
+  border: 2px solid black;
+  background-color: yellow; }
 
 font {
-    color: blue;
-}
+  color: blue; }
 
 .p1 {
-    font-family: Helvetica;
-    font-weight: bold;
-    background-color: #9A18C9;
-    margin: 10px;
-    padding: 3px solid;
-    border: 2px solid black;
-}
+  font-family: Helvetica;
+  font-weight: bold;
+  background-color: #9A18C9;
+  margin: 10px;
+  padding: 3px solid;
+  border: 2px solid black; }
 
 .p2 {
-    font-family: Helvetica;
-    font-weight: bold;
-    background-color: #9A18C9;
-    margin: 10px;
-    padding: 3px;
-    border: 2px solid black;
-}
+  font-family: Helvetica;
+  font-weight: bold;
+  background-color: #9A18C9;
+  margin: 10px;
+  padding: 3px;
+  border: 2px solid black; }
 
 .p3 {
-    font-family: Helvetica;
-    font-weight: bold;
-    background-color: #9A18C9;
-    margin: 10px;
-    padding: 3px;
-    border: 2px solid black;
-}
-
+  font-family: Helvetica;
+  font-weight: bold;
+  background-color: #9A18C9;
+  margin: 10px;
+  padding: 3px;
+  border: 2px solid black; }
 
 .preguntas {
-    background-color: #9A18C9;
-    margin: 10px;
-    padding: 0px;
-    font-family: RobotoFlex;
-    font-weight: bold;
-    color: black;
-    font-weight: bold;
-}
-
+  background-color: #9A18C9;
+  margin: 10px;
+  padding: 0px;
+  font-family: RobotoFlex;
+  font-weight: bold;
+  color: black;
+  font-weight: bold; }
 
 .L {
-    list-style: none;
-    margin: 0px;
-    padding: 5px;
-    border-top: 1px solid black;
-}
+  list-style: none;
+  margin: 0px;
+  padding: 5px;
+  border-top: 1px solid black; }
 
 .vinculos {
-    width: 200px;
-    height: 600px;
-    padding: 10px;
-}
+  width: 200px;
+  height: 600px;
+  padding: 10px; }
 
 .logo {
-    position: relative;
-    width: 70px;
-    height: 70px;
-
-}
+  position: relative;
+  width: 70px;
+  height: 70px; }
 
 .padre {
-    display: flex;
-    flex-direction: row;
-}
+  display: flex;
+  flex-direction: row; }
 
 .BoxModel {
-    list-style: none;
-    margin: 5px;
-    padding: 5px;
-    border: 2px black solid;
-    font-family: RobotoFlex;
-    font-weight: bold;
-    font-style: italic;
-    background-color: #9A18C9;
-}
+  list-style: none;
+  margin: 5px;
+  padding: 5px;
+  border: 2px black solid;
+  font-family: RobotoFlex;
+  font-weight: bold;
+  font-style: italic;
+  background-color: #9A18C9; }
 
 .tabla {
-    padding: 3px;
-    margin: 0px;
-    border: black 2px solid;
-    font-family: RobotoFlex;
-    font-weight: bold;
-    background-color: #9A18C9;
-}
+  padding: 3px;
+  margin: 0px;
+  border: black 2px solid;
+  font-family: RobotoFlex;
+  font-weight: bold;
+  background-color: #9A18C9; }
 
 .Formulario {
-    font-family: RobotoFlex;
-    font-weight: 1000;
-    margin: 3px;
-    padding: 1px;
-}
+  font-family: RobotoFlex;
+  font-weight: 1000;
+  margin: 3px;
+  padding: 1px; }
 
 .Pie {
-    margin: 10px;
-    padding: 1px;
-    font-family: RobotoFlex;
-    font-weight: bolder
-}
+  margin: 10px;
+  padding: 1px;
+  font-family: RobotoFlex;
+  font-weight: bolder; }
 
 .parrafo {
-    font-family: RobotoFlex;
-    font-weight: bold;
-}
+  font-family: RobotoFlex;
+  font-weight: bold; }
 
 .bodyContacto {
-    background-image: url(../img/soporte-tecnico.png);
-}
+  background-image: url(../img/soporte-tecnico.png); }
 
 .fondo {
-    background-color: white;
-}
+  background-color: white; }
 
 .ingreso {
-    font-family: RobotoFlex;
-    font-size: 1rem;
-    font-weight: bold;
+  font-family: RobotoFlex;
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end; }
+
+@media screen and (max-width: 577px) {
+  .padre {
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-}
+    flex-direction: column; }
+  .vinculos {
+    width: 800px;
+    height: 600px;
+    padding: 10px; }
+  .subtitulo {
+    font-size: 20px; } }
 
-@media screen and (max-width:577px){
-.padre{display: flex;
-    flex-direction: column;
-    }
-    .vinculos {
-        width: 800px;
-        height: 600px;
-        padding: 10px;
-    }
-    .subtitulo{
-        font-size: 20px;
-    }
-    
-}
-
-@media screen and (max-width:768px) {
-    .padre{display: flex;
-        flex-direction: column;
-        }
-        .vinculos {
-            width: 800px;
-            height: 600px;
-            padding: 10px;
-        }
-.subtitulo{
-    font-size: 19px;
-}
-}
+@media screen and (max-width: 768px) {
+  .padre {
+    display: flex;
+    flex-direction: column; }
+  .vinculos {
+    width: 800px;
+    height: 600px;
+    padding: 10px; }
+  .subtitulo {
+    font-size: 19px; } }
