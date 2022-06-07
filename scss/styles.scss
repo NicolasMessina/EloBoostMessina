@@ -8,29 +8,49 @@
     src: url(../font/RobotoFlex-VariableFont_GRAD\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf)
 }
 
-body{
-    background-color: #31fab7;
+body {
+    background-color: #231526;
 }
+
 h1 {
     margin: 0;
     padding: 0;
-    color: black;
+    color: white;
     font-weight: bold;
     text-align: center;
     font-family: RobotoFlex;
     text-decoration: underline;
 }
-.subtitulo{
+
+.subtitulo {
     font-size: 2rem;
 }
+
+.blanco {
+    color: white;
+}
+
 h2 {
     margin: 1px;
     padding: 5px;
+    color: white;
 
 }
 
-.pink{
-    background-color: pink;
+.h3{
+    border: solid black 2px;
+    background-color: #E26350;
+    margin: 2px;
+    padding: 5px;
+    color: black;
+}
+
+.cajas{
+    background-color: #3A263A;
+}
+
+.pink {
+    background-color: #3A263A;
 }
 
 .subrayado {
@@ -60,36 +80,40 @@ font {
     color: blue;
 }
 
+
 .p1 {
     font-family: Helvetica;
     font-weight: bold;
-    background-color: #9A18C9;
-    margin: 10px;
-    padding: 3px solid;
+    background-color: #E26350;
+    color: black;
+    margin: 5px;
+    padding: 5px;
     border: 2px solid black;
 }
 
 .p2 {
     font-family: Helvetica;
     font-weight: bold;
-    background-color: #9A18C9;
-    margin: 10px;
-    padding: 3px;
+    background-color: #E26350;
+    color: black;
+    margin: 5px;
+    padding: 5px;
     border: 2px solid black;
 }
 
 .p3 {
     font-family: Helvetica;
     font-weight: bold;
-    background-color: #9A18C9;
-    margin: 10px;
-    padding: 3px;
+    background-color: #E26350;
+    color: black;
+    margin: 5px;
+    padding: 5px;
     border: 2px solid black;
 }
 
 
 .preguntas {
-    background-color: #9A18C9;
+    background-color: #E26350;
     margin: 10px;
     padding: 0px;
     font-family: RobotoFlex;
@@ -122,6 +146,7 @@ font {
 .padre {
     display: flex;
     flex-direction: row;
+    background-color: #3A263A;
 }
 
 .BoxModel {
@@ -132,7 +157,7 @@ font {
     font-family: RobotoFlex;
     font-weight: bold;
     font-style: italic;
-    background-color: #9A18C9;
+    background-color: #E26350;
 }
 
 .tabla {
@@ -141,7 +166,7 @@ font {
     border: black 2px solid;
     font-family: RobotoFlex;
     font-weight: bold;
-    background-color: #9A18C9;
+    background-color: #E26350;
 }
 
 .Formulario {
@@ -154,6 +179,7 @@ font {
 .Pie {
     margin: 10px;
     padding: 1px;
+    color: white;
     font-family: RobotoFlex;
     font-weight: bolder
 }
@@ -178,33 +204,65 @@ font {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
+    color: white;
 }
 
-@media screen and (max-width:577px){
-.padre{display: flex;
-    flex-direction: column;
+.nav{
+    color: white;
+}
+
+@media screen and (max-width:577px) {
+    .padre {
+        display: flex;
+        flex-direction: column;
     }
+
     .vinculos {
         width: 800px;
         height: 600px;
         padding: 10px;
     }
-    .subtitulo{
+
+    .naveg{
+        background-color: #231526;
+    }
+
+.navegB{
+    background-color: #E26350;
+}
+    .vinculos {
+        width: 800px;
+        height: 600px;
+        padding: 10px;
+    }
+
+    .subtitulo {
         font-size: 20px;
     }
-    
+
 }
 
 @media screen and (max-width:768px) {
-    .padre{display: flex;
+    .padre {
+        display: flex;
         flex-direction: column;
-        }
-        .vinculos {
-            width: 800px;
-            height: 600px;
-            padding: 10px;
-        }
-.subtitulo{
-    font-size: 19px;
+        background-color: #231526;
+    }
+
+    .naveg{
+        background-color: #231526;
+    }
+
+.navegB{
+    background-color: #E26350;
 }
+    .vinculos {
+        width: 800px;
+        height: 600px;
+        padding: 10px;
+    }
+
+    .subtitulo {
+        font-size: 19px;
+    }
 }
