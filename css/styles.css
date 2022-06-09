@@ -1,3 +1,10 @@
+div .pie {
+  margin: 10px;
+  padding: 1px;
+  color: white;
+  font-family: RobotoFlex;
+  font-weight: bolder; }
+
 * {
   margin: 0;
   padding: auto; }
@@ -9,41 +16,67 @@
 body {
   background-color: #231526; }
 
-h1 {
+div h1 {
   margin: 0;
   padding: 0;
   color: white;
   font-weight: bold;
   text-align: center;
-  font-family: RobotoFlex;
-  text-decoration: underline; }
+  font-family: RobotoFlex; }
 
-.subtitulo {
-  font-size: 2rem; }
-
-.blanco {
-  color: white; }
-
-h2 {
+div h2 {
   margin: 1px;
   padding: 5px;
-  color: white; }
+  color: white;
+  text-decoration: underline; }
 
-.h3 {
+div .subtitulo {
+  font-size: 2rem; }
+
+div .h3 {
   border: solid black 2px;
   background-color: #E26350;
   margin: 2px;
   padding: 5px;
   color: black; }
 
+div h2 {
+  margin: 1px;
+  padding: 5px;
+  color: white;
+  text-decoration: underline; }
+
+.p {
+  font-family: Helvetica;
+  font-weight: bold;
+  background-color: #E26350;
+  color: black;
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid black; }
+
+.preguntas {
+  background-color: #E26350;
+  margin: 10px;
+  padding: 0px;
+  font-family: RobotoFlex;
+  font-weight: bold;
+  color: black; }
+
+.L {
+  list-style: none;
+  margin: 0px;
+  padding: 5px;
+  border-top: 1px solid black; }
+
+.blanco {
+  color: white; }
+
 .cajas {
   background-color: #3A263A; }
 
-.pink {
+.bgc {
   background-color: #3A263A; }
-
-.subrayado {
-  text-decoration: underline; }
 
 .imagen {
   margin: 1px;
@@ -64,48 +97,6 @@ h2 {
 
 font {
   color: blue; }
-
-.p1 {
-  font-family: Helvetica;
-  font-weight: bold;
-  background-color: #E26350;
-  color: black;
-  margin: 5px;
-  padding: 5px;
-  border: 2px solid black; }
-
-.p2 {
-  font-family: Helvetica;
-  font-weight: bold;
-  background-color: #E26350;
-  color: black;
-  margin: 5px;
-  padding: 5px;
-  border: 2px solid black; }
-
-.p3 {
-  font-family: Helvetica;
-  font-weight: bold;
-  background-color: #E26350;
-  color: black;
-  margin: 5px;
-  padding: 5px;
-  border: 2px solid black; }
-
-.preguntas {
-  background-color: #E26350;
-  margin: 10px;
-  padding: 0px;
-  font-family: RobotoFlex;
-  font-weight: bold;
-  color: black;
-  font-weight: bold; }
-
-.L {
-  list-style: none;
-  margin: 0px;
-  padding: 5px;
-  border-top: 1px solid black; }
 
 .vinculos {
   width: 200px;
@@ -170,9 +161,6 @@ font {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  color: white; }
-
-.nav {
   color: white; }
 
 @media screen and (max-width: 577px) {

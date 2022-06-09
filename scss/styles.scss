@@ -1,3 +1,6 @@
+@import "_variable.scss";
+@import "_footer.scss";
+
 * {
     margin: 0;
     padding: auto;
@@ -9,52 +12,94 @@
 }
 
 body {
-    background-color: #231526;
+    background-color: $color_principal;
 }
 
-h1 {
-    margin: 0;
-    padding: 0;
-    color: white;
+div {
+    h1 {
+        margin: 0;
+        padding: 0;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        font-family: RobotoFlex;
+    }
+
+}
+
+div {
+
+    h2 {
+        margin: 1px;
+        padding: 5px;
+        color: white;
+        text-decoration: underline;
+    }
+
+    .subtitulo {
+        font-size: 2rem;
+    }
+
+}
+
+div {
+    .h3 {
+        border: solid black 2px;
+        background-color: $color_naranja;
+        margin: 2px;
+        padding: 5px;
+        color: black;
+    }
+
+}
+
+div {
+
+    h2 {
+        margin: 1px;
+        padding: 5px;
+        color: white;
+        text-decoration: underline;
+    }
+
+}
+
+.p {
+    font-family: Helvetica;
     font-weight: bold;
-    text-align: center;
-    font-family: RobotoFlex;
-    text-decoration: underline;
+    background-color: $fondo_texto;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
 }
 
-.subtitulo {
-    font-size: 2rem;
+.preguntas {
+    background-color: $fondo_texto;
+    margin: 10px;
+    padding: 0px;
+    font-family: RobotoFlex;
+    font-weight: bold;
+    color: black;
+}
+
+.L {
+    list-style: none;
+    margin: 0px;
+    padding: 5px;
+    border-top: 1px solid black;
 }
 
 .blanco {
     color: white;
 }
 
-h2 {
-    margin: 1px;
-    padding: 5px;
-    color: white;
-
+.cajas {
+    background-color: $color_secundario;
 }
 
-.h3{
-    border: solid black 2px;
-    background-color: #E26350;
-    margin: 2px;
-    padding: 5px;
-    color: black;
-}
-
-.cajas{
-    background-color: #3A263A;
-}
-
-.pink {
-    background-color: #3A263A;
-}
-
-.subrayado {
-    text-decoration: underline;
+.bgc {
+    background-color: $color_secundario;
 }
 
 .imagen {
@@ -78,56 +123,6 @@ h2 {
 
 font {
     color: blue;
-}
-
-
-.p1 {
-    font-family: Helvetica;
-    font-weight: bold;
-    background-color: #E26350;
-    color: black;
-    margin: 5px;
-    padding: 5px;
-    border: 2px solid black;
-}
-
-.p2 {
-    font-family: Helvetica;
-    font-weight: bold;
-    background-color: #E26350;
-    color: black;
-    margin: 5px;
-    padding: 5px;
-    border: 2px solid black;
-}
-
-.p3 {
-    font-family: Helvetica;
-    font-weight: bold;
-    background-color: #E26350;
-    color: black;
-    margin: 5px;
-    padding: 5px;
-    border: 2px solid black;
-}
-
-
-.preguntas {
-    background-color: #E26350;
-    margin: 10px;
-    padding: 0px;
-    font-family: RobotoFlex;
-    font-weight: bold;
-    color: black;
-    font-weight: bold;
-}
-
-
-.L {
-    list-style: none;
-    margin: 0px;
-    padding: 5px;
-    border-top: 1px solid black;
 }
 
 .vinculos {
@@ -157,7 +152,7 @@ font {
     font-family: RobotoFlex;
     font-weight: bold;
     font-style: italic;
-    background-color: #E26350;
+    background-color: $fondo_texto;
 }
 
 .tabla {
@@ -166,7 +161,7 @@ font {
     border: black 2px solid;
     font-family: RobotoFlex;
     font-weight: bold;
-    background-color: #E26350;
+    background-color: $fondo_texto;
 }
 
 .Formulario {
@@ -207,10 +202,6 @@ font {
     color: white;
 }
 
-.nav{
-    color: white;
-}
-
 @media screen and (max-width:577px) {
     .padre {
         display: flex;
@@ -223,13 +214,14 @@ font {
         padding: 10px;
     }
 
-    .naveg{
+    .naveg {
         background-color: #231526;
     }
 
-.navegB{
-    background-color: #E26350;
-}
+    .navegB {
+        background-color: $fondo_texto;
+    }
+
     .vinculos {
         width: 800px;
         height: 600px;
@@ -249,13 +241,14 @@ font {
         background-color: #231526;
     }
 
-    .naveg{
+    .naveg {
         background-color: #231526;
     }
 
-.navegB{
-    background-color: #E26350;
-}
+    .navegB {
+        background-color: $fondo_texto;
+    }
+
     .vinculos {
         width: 800px;
         height: 600px;
