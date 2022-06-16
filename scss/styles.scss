@@ -11,7 +11,7 @@
     src: url(../font/RobotoFlex-VariableFont_GRAD\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf)
 }
 
-body {
+body{
     background-color: $color_principal;
 }
 
@@ -92,6 +92,10 @@ div {
 
 .blanco {
     color: white;
+}
+
+.naranja{
+    color: #E26350;
 }
 
 .cajas {
