@@ -1,5 +1,6 @@
 @import "_variable.scss";
 @import "_footer.scss";
+@import "_mixins.scss";
 
 * {
     margin: 0;
@@ -13,6 +14,10 @@
 
 body{
     background-color: $color_principal;
+}
+
+.pp{
+    text-decoration: none;
 }
 
 div {
@@ -64,7 +69,7 @@ div {
 
 }
 
-.p {
+.p{
     font-family: Helvetica;
     font-weight: bold;
     background-color: $fondo_texto;
@@ -204,6 +209,21 @@ font {
     flex-direction: row;
     align-items: flex-end;
     color: white;
+}
+
+
+
+
+
+@each $red, $valor in $colores-redes {
+    .btn--#{$red}{
+        background-color: $valor;
+    }
+    
+}
+
+.texto-oscuro{
+    color:map-get($Colores-oscuros,text)
 }
 
 @media screen and (max-width:577px) {

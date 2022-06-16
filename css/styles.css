@@ -16,6 +16,9 @@ div .pie {
 body {
   background-color: #231526; }
 
+.pp {
+  text-decoration: none; }
+
 div h1 {
   margin: 0;
   padding: 0;
@@ -165,6 +168,18 @@ font {
   flex-direction: row;
   align-items: flex-end;
   color: white; }
+
+.btn--Discord {
+  background-color: #404EED; }
+
+.btn--Twitch {
+  background-color: #A970FF; }
+
+.btn--Whatsapp {
+  background-color: #3CC050; }
+
+.texto-oscuro {
+  color: #21252B; }
 
 @media screen and (max-width: 577px) {
   .padre {
