@@ -1,6 +1,6 @@
 @import "_variable.scss";
 @import "_footer.scss";
-@import "_mixins.scss";
+@import "mixins.scss";
 
 * {
     margin: 0;
@@ -12,11 +12,11 @@
     src: url(../font/RobotoFlex-VariableFont_GRAD\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf)
 }
 
-body{
+body {
     background-color: $color_principal;
 }
 
-.pp{
+.pp {
     text-decoration: none;
 }
 
@@ -32,48 +32,41 @@ div {
 
 }
 
-div {
-
-    h2 {
-        margin: 1px;
-        padding: 5px;
-        color: white;
-        text-decoration: underline;
-    }
-
     .subtitulo {
         font-size: 2rem;
     }
 
-}
-
-div {
-    .h3 {
-        border: solid black 2px;
-        background-color: $color_naranja;
-        margin: 2px;
-        padding: 5px;
-        color: black;
-    }
-
-}
-
 div {
 
     h2 {
         margin: 1px;
         padding: 5px;
         color: white;
-        text-decoration: underline;
+        text-decoration: none;
     }
 
 }
 
-.p{
+h3{
     font-family: Helvetica;
     font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    color: $color_negro;
     background-color: $fondo_texto;
+    border: 2px, solid, black;
+    text-decoration: none;
+}
+
+.pp {
+    font-family: Helvetica;
+    font-weight: bold;
     color: black;
+}
+
+.p {
+    @extend .pp;
+    background-color: $fondo_texto;
     margin: 5px;
     padding: 5px;
     border: 2px solid black;
@@ -99,7 +92,7 @@ div {
     color: white;
 }
 
-.naranja{
+.naranja {
     color: #E26350;
 }
 
@@ -211,19 +204,16 @@ font {
     color: white;
 }
 
-
-
-
-
-@each $red, $valor in $colores-redes {
-    .btn--#{$red}{
+@each $red,
+$valor in $colores-redes {
+    .btn--#{$red} {
         background-color: $valor;
     }
-    
+
 }
 
-.texto-oscuro{
-    color:map-get($Colores-oscuros,text)
+.texto-oscuro {
+    color: map-get($Colores-oscuros, text)
 }
 
 @media screen and (max-width:577px) {

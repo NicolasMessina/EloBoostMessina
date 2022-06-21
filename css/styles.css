@@ -16,7 +16,7 @@ div .pie {
 body {
   background-color: #231526; }
 
-.pp {
+.pp, .p {
   text-decoration: none; }
 
 div h1 {
@@ -27,33 +27,32 @@ div h1 {
   text-align: center;
   font-family: RobotoFlex; }
 
-div h2 {
-  margin: 1px;
-  padding: 5px;
-  color: white;
-  text-decoration: underline; }
-
-div .subtitulo {
+.subtitulo {
   font-size: 2rem; }
 
-div .h3 {
-  border: solid black 2px;
-  background-color: #E26350;
-  margin: 2px;
-  padding: 5px;
-  color: black; }
-
 div h2 {
   margin: 1px;
   padding: 5px;
   color: white;
-  text-decoration: underline; }
+  text-decoration: none; }
 
-.p {
+h3 {
   font-family: Helvetica;
   font-weight: bold;
-  background-color: #E26350;
+  margin: 5px;
+  padding: 5px;
   color: black;
+  background-color: #E26350;
+  border: 2px, solid, black;
+  text-decoration: none; }
+
+.pp, .p {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: black; }
+
+.p {
+  background-color: #E26350;
   margin: 5px;
   padding: 5px;
   border: 2px solid black; }
